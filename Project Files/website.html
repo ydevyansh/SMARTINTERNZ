@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Machine Learning App</title>
+    </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            N: <input type="number" name="n", placeholder="Enter n" required/>
+            <br><br>
+            P: <input type="number" name="p", placeholder="Enter p" required/>
+            <br><br>
+            K: <input type="number" name="k", placeholder="Enter k" required/>
+            <br><br>
+            Temparature: <input type="number" name="temparature", placeholder="Enter temparature" required/>
+            <br><br>
+            Humidity: <input type="number" name="humidity", placeholder="Enter humidity" required/>
+            <br><br>
+            pH: <input type="number" name="ph", placeholder="Enter pH" required/>
+            <br><br>
+            Rainfall: <input type="number" name="rainfall", placeholder="Enter raifall" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
